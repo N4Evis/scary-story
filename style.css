@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(107, 25, 0);
+    color: rgb(255, 193, 174);
+    font-family:"ZCOOL XiaoWei", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700 px;
+    margin: 0;
+}
+
+button{
+    background-color: rgb(37, 10, 1);
+    color: aliceblue;
+    font-family:"ZCOOL XiaoWei", sans-serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main{
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+ max-width: 50%
+}
